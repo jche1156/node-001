@@ -1,23 +1,5 @@
-fetch('https://api.example.com/data')
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));
 
-
-const data = { username: 'example' };
-
-fetch('https://api.example.com/users', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify(data),
-})
-  .then(response => response.json())
-  .then(data => console.log('Success:', data))
-  .catch((error) => console.error('Error:', error));
-
-
+This is a bare-bones project showcasing how you can use Javascript to fetch data from an API to display in HTML.
 
 Lesson Goals:
 
@@ -58,6 +40,5 @@ Lesson Goals:
 [ ] Break - Exploring Visualizations for Inspiration
 
 [ ] Review, Next Steps
-[ ] Coursework Suggestions - FreeCodeCamp Modules
-[ ] FreeCodeCamp demo
-[ ] Suggest Learning Go
+[ ] FreeCodeCamp Demo
+[ ] Suggest Learning Paths

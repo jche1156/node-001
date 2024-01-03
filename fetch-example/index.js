@@ -22,4 +22,27 @@ document.querySelector('#app').innerHTML = `
       </ul>
     </div>
   </div>
+  <hr>
+  <div >
+    <table style='table-layout: fixed; width: 100%;'>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+        <th>Number</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        <td>07621182659</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        <td>4433154966</td>
+      </tr>
+    </table>
+  </div>
 `
